@@ -1,0 +1,19 @@
+[package]
+name = "kilna-plugin-wordcount"
+version = "0.1.0"
+description = "Counts words, lines and reading time for a work in kilna."
+authors = ["Kirill Lakhtachev <lahtachev@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/lacodda/kilna-plugin-wordcount"
+edition = "2024"
+rust-version = "1.85"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = { level = "deny", priority = -1 }
