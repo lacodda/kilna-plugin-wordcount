@@ -1,6 +1,9 @@
-# kilna-plugin-wordcount
+<p align="center">
+  <a href="https://github.com/lacodda/kilna-plugin-wordcount/actions"><img src="https://img.shields.io/github/actions/workflow/status/lacodda/kilna-plugin-wordcount/ci.yml?style=flat-square" alt="CI"></a>
+  <a href="https://github.com/lacodda/kilna-plugin-wordcount/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lacodda/kilna-plugin-wordcount?style=flat-square" alt="License"></a>
+</p>
 
-**Counts what a draft actually contains** — words, lines and an estimated reading time — and writes them into the work's fields in [kilna](https://github.com/lacodda/kilna).
+> Counts what a draft actually contains - words, lines and an estimated reading time - and writes them into the work's fields in [kilna](https://github.com/lacodda/kilna).
 
 The first plugin written against kilna's plugin protocol, and the thing that proved the protocol works.
 
@@ -57,4 +60,4 @@ Requires Rust 1.85 or newer.
 
 ## License
 
-MIT
+MIT (c) [Kirill Lakhtachev](https://lacodda.com)
