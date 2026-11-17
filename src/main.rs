@@ -53,10 +53,13 @@ fn manifest() -> String {
         "name": "wordcount",
         "version": env!("CARGO_PKG_VERSION"),
         "description": "Counts words, lines and reading time for the current draft.",
+        "descriptions": { "ru": "Считает слова, строки и время чтения текущего черновика." },
         "commands": [{
             "key": "count",
             "label": "Count words",
+            "labels": { "ru": "Посчитать слова" },
             "description": "Words, lines and an estimated reading time, written into the work's fields.",
+            "descriptions": { "ru": "Слова, строки и примерное время чтения - в поля произведения." },
             "target": "work"
         }]
     })
